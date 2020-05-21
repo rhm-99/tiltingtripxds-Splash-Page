@@ -75,3 +75,15 @@ nav a:hover {
   padding: 0.5rem 2rem;
   display: inline-block;
 }
+
+.bg-courtyard {
+  background-image: url("images/courtyard");
+}
+
+.bg-NYC {
+  background-image: url("images/DSC03547");
+}
+
+.bg-Niagra {
+  background-image: url("images/DSC03617");
+}
