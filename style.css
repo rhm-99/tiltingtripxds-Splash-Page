@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+header,
+section,
+footer {
+  padding: 5%;
+  border: 1px solid rgb(200, 200, 200);
+}
+
 [class*="col"] {
   padding: 0;
 }
