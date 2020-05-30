@@ -94,14 +94,10 @@ nav a:hover {
   background-color: #85fff6;
 }
 
-.bg-courtyard {
-  background-image: url("images/courtyard");
+.bg-Doha {
+  background-image: url("images/image1.jpeg");
 }
 
 .bg-NYC {
-  background-image: url("images/DSC03547");
-}
-
-.bg-Niagra {
-  background-image: url("images/DSC03617");
+  background-image: url("images/DSC03617.JPG");
 }
