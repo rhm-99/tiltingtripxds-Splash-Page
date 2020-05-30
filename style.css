@@ -3,16 +3,11 @@
   padding: 0;
 }
 
-header,
-section,
-footer {
-  padding: 5%;
-  border: 1px solid rgb(200, 200, 200);
-}
-
 [class*="col"] {
   padding: 0;
 }
+
+/* -- Universal styles and utiility classes -- */
 
 .bg-light {
   background-color: #d6fffc;
@@ -33,7 +28,12 @@ footer {
 }
 
 section {
-  padding: 1% 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+header {
+  padding: 1% 5%; /*top and bottom then left and right */
 }
 
 footer {
@@ -45,11 +45,18 @@ footer {
   text-align: right;
 }
 
+/* -- Typography --*/
+
 body {
   font-family: "Arial";
 }
 
 h1 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+h2 {
   font-weight: 300;
   font-size: 2.5rem;
   line-height: 1.2;
@@ -81,6 +88,10 @@ nav a:hover {
   text-decoration: none;
   padding: 0.5rem 2rem;
   display: inline-block;
+}
+
+.button:hover {
+  background-color: #85fff6;
 }
 
 .bg-courtyard {
