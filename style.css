@@ -94,10 +94,87 @@ nav a:hover {
   background-color: #85fff6;
 }
 
+/* -- Images */
+
 .bg-Doha {
   background-image: url("images/image1.jpeg");
 }
 
 .bg-NYC {
-  background-image: url("images/DSC03617.JPG");
+  background-image: url("images/image2.JPG");
+}
+
+.bg-St-Pauls {
+  background-image: url("image3");
+}
+
+.bg-o2 {
+  background-image: url("image4");
+}
+
+.bg-fortress {
+  background-image: url("image5");
+}
+
+.bg-goa-church {
+  background-image: url("image6");
+}
+
+.bg-elgouna {
+  background-image: url("image7");
+}
+
+.bg-elgouna-trees {
+  background-image: url("image8");
+}
+
+.bg-fortress-stairs {
+  background-image: url("image9");
+  transform: rotate(90deg);
+}
+
+.bg-sunset {
+  background-image: url("image10");
+  transform: rotate(90deg);
+}
+
+.bg-londoneye {
+  background-image: url("image11");
+}
+
+.bg-redsky {
+  background-image: url("image12");
+}
+
+.bg-marbella {
+  background-image: url("image13");
+}
+
+.bg-valetta {
+  background-image: url("image14");
+}
+
+.bg-paris {
+  background-image: url("image15");
+}
+
+.bg-sacrecoure {
+  background-image: url("image16");
+}
+
+.bg-louvre {
+  background-image: url("image17");
+}
+
+.bg-eiffeltower {
+  background-image: url("image18");
+}
+
+.bg-stadium {
+  background-image: url("image19");
+}
+
+.bg-dohasunset {
+  background-image: url("image20");
+  transform: rotate(90deg);
 }
