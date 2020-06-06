@@ -8,6 +8,18 @@
 }
 
 /* -- Universal styles and utiility classes -- */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .bg-light {
   background-color: #d6fffc;
@@ -104,7 +116,7 @@ nav a:hover {
   background-image: url("images/image2.JPG");
 }
 
-.bg-St-Pauls {
+.bg-StPauls {
   background-image: url("image3");
 }
 
